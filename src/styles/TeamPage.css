@@ -74,18 +74,19 @@ body {
 
 .avatar {
     width: 160px;
-    /* Increased size */
     height: 160px;
-    /* Increased size */
     border-radius: 50%;
     border: 4px solid #e50914;
-    transition: opacity 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease;  /* <-- Added transform */
 }
 
+
 .card:hover .avatar {
+    transform: scale(1.1);   /* <-- Added: the actual scaling */
     opacity: 0.9;
-    /* Slight fade effect instead of rotation */
+    z-index: 1;               /* Optional, helps with stacking if needed */
 }
+
 
 .member-name {
     font-size: 20px;
