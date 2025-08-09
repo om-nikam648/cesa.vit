@@ -72,6 +72,7 @@ body {
     align-items: center;
 }
 
+/* ------ CHANGES START HERE ------ */
 .avatar {
     width: 160px;
     /* Increased size */
@@ -79,13 +80,15 @@ body {
     /* Increased size */
     border-radius: 50%;
     border: 4px solid #e50914;
-    transition: opacity 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .card:hover .avatar {
+    transform: scale(1.1);
     opacity: 0.9;
-    /* Slight fade effect instead of rotation */
+    z-index: 1;
 }
+/* ------ CHANGES END HERE ------ */
 
 .member-name {
     font-size: 20px;
