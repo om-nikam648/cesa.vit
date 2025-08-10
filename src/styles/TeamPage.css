@@ -19,8 +19,8 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 24px;
-    color: #e50914;
-    /* Netflix Red */
+    color: #fff;
+    /* White */
     text-shadow: 3px 3px 10px rgba(229, 9, 20, 0.7);
 }
 
@@ -28,7 +28,7 @@ body {
     font-size: 1.8rem;
     font-weight: bold;
     margin: 40px 0 20px;
-    color: #ff007f;
+    color: #fff;
     text-shadow: 2px 2px 8px rgba(255, 0, 127, 0.6);
 }
 
@@ -92,7 +92,8 @@ body {
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
-    color: #ff007f;
+    color: #fff;
+
 }
 
 .member-role {
